@@ -24,7 +24,7 @@ def y_predict():
     output = pred[0]
     print('Price predicted', output)
     
-    return render_template('index1.html', prediction_text = 'Price (In INR): {}'.format(output))
+    return render_template('index1.html', prediction_text = 'Price (In USD): {}'.format(output))
     
 if (__name__ == '__main__'):
     app.run(debug=True)
